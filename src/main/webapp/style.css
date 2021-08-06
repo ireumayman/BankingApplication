@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+div {
+	margin: 10px;
+}
+
+form {
+	box-shadow: 5px 5px gray;
+	border: 1px solid black;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+label {
+	font-weight: bold;
+}
+
+.submit{
+	background: green;
+	border-radius: 10px;
+	width: 50%;
+}
+
+.submit:hover{
+	background: yellow;
+	color: white;
+	transition: 0.2s;
+}
